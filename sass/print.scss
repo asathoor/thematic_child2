@@ -1,0 +1,25 @@
+/* Welcome to Compass. Use this file to define print styles.
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" /> */
+
+@media print {
+
+body {
+	font-family: "Times New Roman", Georgia, Serif;
+	font-size: 10pt;
+	margins: 4em;
+}
+
+#menu-the, #primary, #respond  {
+	display: none; // hide menu
+}
+
+/* Links */
+
+a:link, a:visited {background: transparent; color:#333; text-decoration:none;}
+
+a:link[href^="http://"]:after, a[href^="http://"]:visited:after {content: " (" attr(href) ") "; font-size: 11px;}
+
+a[href^="http://"] {color:#000;} 
+
+}

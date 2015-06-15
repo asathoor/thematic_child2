@@ -1,0 +1,35 @@
+/* Breakpoint 800 px */
+
+@media only screen and (max-width: 800px)  {
+
+	.main-aside {
+		display: block;
+		position: relative;
+		clear: both;
+		width: 100%;
+		float: left;
+	}
+	#main {
+		display: block;
+	}
+	#primary {
+		display: block;
+
+	}
+	#content {
+		display: block;
+	}
+	#menu-the {
+		visibility: hidden; // hide the menu, only buger menu plugin visible
+	}
+	
+/* blog title */
+
+div #blog-title span a {
+	color: #fff;
+	font-family: 'Nothing You Could Do', cursive;
+	font-size: 1.2em;
+}
+
+	
+}

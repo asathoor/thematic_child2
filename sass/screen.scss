@@ -1,0 +1,130 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports).
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset"; 
+@import "compass/css3";
+@import url(http://fonts.googleapis.com/css?family=Nothing+You+Could+Do);
+
+/*colors  */ 
+
+$groen: #69db69;
+$blaa: #6969db;
+$violet: #db6969;
+
+$padding: .4321em;
+
+/* typography */
+
+$default-text-shadow-color: rgba(red, 0.6);
+$default-text-shadow-blur: 3px;
+$default-text-shadow-v-offset: 1px;
+
+body {
+	background-color: $blaa;
+	font-family: sans-serif;
+	margin-top: 0px;
+}
+
+h1, h2, h3 {
+	color: green;
+	padding: $padding;
+}
+
+p {
+	padding: $padding;
+	max-width: 40em;
+}
+
+input {
+	width: 100%;
+	max-width: 40em;
+}
+
+blockquote {
+	margin: 2em;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* header */
+
+#header {
+	background: url(../images/top2.jpg);
+}
+
+#blog-description {
+	font-size: 1.3em;
+	color: #fff;
+}
+
+div #blog-title span a {
+	color: #fff;
+	font-family: 'Nothing You Could Do', cursive;
+	font-size: 2.3em;
+}
+
+
+/* footer */
+
+#siteinfo {
+
+	color: #fff;
+
+	a {
+		color: #000;
+	}
+}
+
+/* MAIN */
+
+#main {
+	background-color: #fff;
+	border: solid #violet 2px;
+}
+
+.entry-content {
+
+	//background-color: $blaa;
+	//padding: 1.1em;
+}
+
+/* MENU */ 
+
+#menu-the {
+	position: relative;
+	left: -17px;
+	top: +12px;
+}
+
+#menu-menu-the, #menu-the, .menu-item, .menu-item, .menu-item-type-post_type, .menu-item-object-page {
+
+	background-color: #000;
+	color: $groen;
+
+	li a {
+		background-color: #000;
+		color: #fff; 
+	}
+	li a:hover {
+		color: #000;
+		background-color: $groen;		
+	}
+	li a:visited {
+		color: $violet; 
+		background-color: #000;
+	}
+	li a:active {
+		color: $blaa;
+		background-color: #000;
+	}
+}
+
+
+
+/* breakpoints */
+
+@import "_mw800px.scss"; // responsive 

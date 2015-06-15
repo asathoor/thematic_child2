@@ -1,0 +1,65 @@
+/* Welcome to Compass. In this file you should write your main styles. (or centralize your imports). Import this file using the following HTML or equivalent: <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+@import url(http://fonts.googleapis.com/css?family=Nothing+You+Could+Do);
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font: inherit; font-size: 100%; vertical-align: baseline; }
+
+html { line-height: 1; }
+
+ol, ul { list-style: none; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+caption, th, td { text-align: left; font-weight: normal; vertical-align: middle; }
+
+q, blockquote { quotes: none; }
+q:before, q:after, blockquote:before, blockquote:after { content: ""; content: none; }
+
+a img { border: none; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary { display: block; }
+
+/*colors  */
+/* typography */
+body { background-color: #6969db; font-family: sans-serif; margin-top: 0px; }
+
+h1, h2, h3 { color: green; padding: 0.4321em; }
+
+p { padding: 0.4321em; max-width: 40em; }
+
+input { width: 100%; max-width: 40em; }
+
+blockquote { margin: 2em; }
+
+a { text-decoration: none; }
+
+/* header */
+#header { background: url(../images/top2.jpg); }
+
+#blog-description { font-size: 1.3em; color: #fff; }
+
+div #blog-title span a { color: #fff; font-family: 'Nothing You Could Do', cursive; font-size: 2.3em; }
+
+/* footer */
+#siteinfo { color: #fff; }
+#siteinfo a { color: #000; }
+
+/* MAIN */
+#main { background-color: #fff; border: solid #violet 2px; }
+
+/* MENU */
+#menu-the { position: relative; left: -17px; top: +12px; }
+
+#menu-menu-the, #menu-the, .menu-item, .menu-item, .menu-item-type-post_type, .menu-item-object-page { background-color: #000; color: #69db69; }
+#menu-menu-the li a, #menu-the li a, .menu-item li a, .menu-item li a, .menu-item-type-post_type li a, .menu-item-object-page li a { background-color: #000; color: #fff; }
+#menu-menu-the li a:hover, #menu-the li a:hover, .menu-item li a:hover, .menu-item li a:hover, .menu-item-type-post_type li a:hover, .menu-item-object-page li a:hover { color: #000; background-color: #69db69; }
+#menu-menu-the li a:visited, #menu-the li a:visited, .menu-item li a:visited, .menu-item li a:visited, .menu-item-type-post_type li a:visited, .menu-item-object-page li a:visited { color: #db6969; background-color: #000; }
+#menu-menu-the li a:active, #menu-the li a:active, .menu-item li a:active, .menu-item li a:active, .menu-item-type-post_type li a:active, .menu-item-object-page li a:active { color: #6969db; background-color: #000; }
+
+/* breakpoints */
+/* Breakpoint 800 px */
+@media only screen and (max-width: 800px) { .main-aside { display: block; position: relative; clear: both; width: 100%; float: left; }
+  #main { display: block; }
+  #primary { display: block; }
+  #content { display: block; }
+  #menu-the { visibility: hidden; }
+  /* blog title */
+  div #blog-title span a { color: #fff; font-family: 'Nothing You Could Do', cursive; font-size: 1.2em; } }

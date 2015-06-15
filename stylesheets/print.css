@@ -1,0 +1,12 @@
+/* Welcome to Compass. Use this file to define print styles. Import this file using the following HTML or equivalent: <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" /> */
+@media print { @media -sass-debug-info{filename{font-family:file\:\/\/\/opt\/lampp\/htdocs\/test\/wordpress\/wp-content\/themes\/thematic_child\/sass\/print\.scss}line{font-family:\000037}}
+  body { font-family: "Times New Roman", Georgia, Serif; font-size: 10pt; margins: 4em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/opt\/lampp\/htdocs\/test\/wordpress\/wp-content\/themes\/thematic_child\/sass\/print\.scss}line{font-family:\0000313}}
+  #menu-the, #primary, #respond { display: none; }
+  /* Links */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/opt\/lampp\/htdocs\/test\/wordpress\/wp-content\/themes\/thematic_child\/sass\/print\.scss}line{font-family:\0000319}}
+  a:link, a:visited { background: transparent; color: #333; text-decoration: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/opt\/lampp\/htdocs\/test\/wordpress\/wp-content\/themes\/thematic_child\/sass\/print\.scss}line{font-family:\0000321}}
+  a:link[href^="http://"]:after, a[href^="http://"]:visited:after { content: " (" attr(href) ") "; font-size: 11px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/opt\/lampp\/htdocs\/test\/wordpress\/wp-content\/themes\/thematic_child\/sass\/print\.scss}line{font-family:\0000323}}
+  a[href^="http://"] { color: #000; } }
